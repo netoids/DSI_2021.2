@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DSI.iml" filepath="$PROJECT_DIR$/.idea/DSI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topico01.iml" filepath="$PROJECT_DIR$/topico01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/topico01_android.iml" filepath="$PROJECT_DIR$/android/topico01_android.iml" />
     </modules>
   </component>
 </project>
