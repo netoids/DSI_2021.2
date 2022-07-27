@@ -1,0 +1,4 @@
+#Wed Jul 06 09:36:09 BRT 2022
+base.0=C\:\\Users\\caram\\OneDrive\\DSI\\DSI\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
