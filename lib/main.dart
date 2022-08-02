@@ -40,7 +40,12 @@ class _RandomWordsState extends State<RandomWords> {
         title: const Text('Startup Name Generator 2'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.star),
+            icon: const Icon(Icons.airplay),
+            onPressed: _pushdisplay,
+            tooltip: 'Alterar Exibição',
+          ),
+          IconButton(
+            icon: const Icon(Icons.favorite),
             onPressed: _pushSaved,
             tooltip: 'Saved Suggestions',
           ),
@@ -114,6 +119,7 @@ class _RandomWordsState extends State<RandomWords> {
       ),
     );
   }
+  void _pushdisplay(){}
 }
 
 class RandomWords extends StatefulWidget {
