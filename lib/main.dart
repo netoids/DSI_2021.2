@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Startup Name Generator',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.orange,
           foregroundColor: Colors.black,
         ),
       ),
@@ -40,7 +40,7 @@ class _RandomWordsState extends State<RandomWords> {
         title: const Text('Startup Name Generator'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.list),
+            icon: const Icon(Icons.star),
             onPressed: _pushSaved,
             tooltip: 'Saved Suggestions',
           ),
