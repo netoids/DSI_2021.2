@@ -3,6 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:english_words/english_words.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -41,7 +42,22 @@ class _RandomWordsState extends State<RandomWords> {
         actions: [
           IconButton(
             icon: const Icon(Icons.airplay),
-            onPressed: _pushdisplay,
+            onPressed:  () => showDialog<String>(
+              context: context,
+              builder: (BuildContext context) => CupertinoAlertDialog(
+                title: const Text('Exibir como:'),
+                actions: <Widget>[
+                  TextButton(
+                    onPressed: () => Navigator.pop(context, 'Card'),
+                    child: const Text('Card'),
+                  ),
+                  TextButton(
+                    onPressed: () => Navigator.pop(context, 'Lista'),
+                    child: const Text('Lista'),
+                  ),
+                ],
+              ),
+            ),
             tooltip: 'Alterar Exibição',
           ),
           IconButton(
@@ -111,7 +127,7 @@ class _RandomWordsState extends State<RandomWords> {
 
           return Scaffold(
             appBar: AppBar(
-              title: const Text('Saved Suggestions'),
+              title: const Text('Salvos'),
             ),
             body: ListView(children: divided),
           );
@@ -119,7 +135,9 @@ class _RandomWordsState extends State<RandomWords> {
       ),
     );
   }
-  void _pushdisplay(){}
+  void _pushdisplay(){
+
+  }
 }
 
 class RandomWords extends StatefulWidget {
