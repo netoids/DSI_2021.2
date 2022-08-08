@@ -33,6 +33,7 @@ class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
   final _saved = <WordPair>{};
   final _biggerFont = const TextStyle(fontSize: 18);
+  bool _card = false;
 
   @override
   Widget build(BuildContext context) {
@@ -48,11 +49,21 @@ class _RandomWordsState extends State<RandomWords> {
                 title: const Text('Exibir como:'),
                 actions: <Widget>[
                   TextButton(
-                    onPressed: () => Navigator.pop(context, 'Card'),
+                    onPressed: () {
+                      setState(() {
+                        _card = true;
+                      });
+                      Navigator.pop(context, 'Card');
+                    },
                     child: const Text('Card'),
                   ),
                   TextButton(
-                    onPressed: () => Navigator.pop(context, 'Lista'),
+                    onPressed: () {
+                      setState(() {
+                        _card = false;
+                      });
+                      Navigator.pop(context, 'Lista');
+                    },
                     child: const Text('Lista'),
                   ),
                 ],
@@ -67,7 +78,13 @@ class _RandomWordsState extends State<RandomWords> {
           ),
         ],
       ),
-      body: ListView.builder(
+      body: _cardstyle(),
+    );
+  }
+
+  Widget _cardstyle () {
+    if (_card = false) {
+      return ListView.builder(
         padding: const EdgeInsets.all(16.0),
         itemBuilder: (context, i) {
           if (i.isOdd) return const Divider();
@@ -100,8 +117,11 @@ class _RandomWordsState extends State<RandomWords> {
             },
           );
         },
-      ),
-    );
+      );
+    } else {
+      return icon
+
+    }
   }
 
   void _pushSaved() {
@@ -129,14 +149,12 @@ class _RandomWordsState extends State<RandomWords> {
             appBar: AppBar(
               title: const Text('Salvos'),
             ),
-            body: ListView(children: divided),
+            body: ListView(
+                children: divided),
           );
         },
       ),
     );
-  }
-  void _pushdisplay(){
-
   }
 }
 

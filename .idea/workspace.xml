@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01057049-8239-4844-afc4-2308b8cb8a1e" name="Default Changelist" comment="" />
+    <list default="true" id="01057049-8239-4844-afc4-2308b8cb8a1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,25 +69,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="779" y="266" key="AndroidProcessChooserDialog" timestamp="1659915867627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="266" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659915867627" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1657111674276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657111674276" />
-    <state width="1857" height="279" key="GridCell.Tab.0.bottom" timestamp="1659663881104">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1659920965107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1857" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659663881104" />
-    <state width="1857" height="279" key="GridCell.Tab.0.center" timestamp="1659663881104">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1659920965107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1857" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659663881104" />
-    <state width="1857" height="279" key="GridCell.Tab.0.left" timestamp="1659663881104">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1659920965107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1857" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659663881104" />
-    <state width="1857" height="279" key="GridCell.Tab.0.right" timestamp="1659663881104">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1659920965107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1857" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659663881104" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
   </component>
 </project>
