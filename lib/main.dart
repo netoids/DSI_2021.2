@@ -31,9 +31,10 @@ class MyApp extends StatelessWidget {
 
 class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
+  bool _card = false;
   final _saved = <WordPair>{};
   final _biggerFont = const TextStyle(fontSize: 18);
-  bool _card = false;
+
 
   @override
   Widget build(BuildContext context) {
@@ -51,18 +52,18 @@ class _RandomWordsState extends State<RandomWords> {
                   TextButton(
                     onPressed: () {
                       setState(() {
-                        _card = true;
+                        _card = false;
+                        Navigator.pop(context, 'Card');
                       });
-                      Navigator.pop(context, 'Card');
                     },
                     child: const Text('Card'),
                   ),
                   TextButton(
                     onPressed: () {
                       setState(() {
-                        _card = false;
+                        _card = true;
+                        Navigator.pop(context, 'Lista');
                       });
-                      Navigator.pop(context, 'Lista');
                     },
                     child: const Text('Lista'),
                   ),
@@ -83,7 +84,7 @@ class _RandomWordsState extends State<RandomWords> {
   }
 
   Widget _cardstyle () {
-    if (_card = false) {
+    if (_card == true) {
       return ListView.builder(
         padding: const EdgeInsets.all(16.0),
         itemBuilder: (context, i) {
@@ -119,8 +120,24 @@ class _RandomWordsState extends State<RandomWords> {
         },
       );
     } else {
-      return icon
-
+      return GridView.count(
+        primary: false,
+        padding: const EdgeInsets.all(20),
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        crossAxisCount: 2,
+        children: <Widget>[
+          const ListTile (
+            title: Text("oi"),
+            trailing: Icon(Icons.favorite),
+          ),
+          Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.teal[200],
+            child: const Text('Heed not the rabble'),
+          ),
+        ],
+      );
     }
   }
 
@@ -150,7 +167,8 @@ class _RandomWordsState extends State<RandomWords> {
               title: const Text('Salvos'),
             ),
             body: ListView(
-                children: divided),
+                children: divided,
+            ),
           );
         },
       ),

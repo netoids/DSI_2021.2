@@ -34,7 +34,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Celular_Pika_Parceiro]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,25 +73,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="266" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1659915867627" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1657111674276">
+    <state width="416" height="466" key="DebuggerActiveHint" timestamp="1659925787974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657111674276" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1659920965107">
+    <state width="416" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1659925787974" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1659922232634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1659920965107">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1659922232634" />
+    <state width="1857" height="278" key="GridCell.Tab.0.bottom" timestamp="1659971722178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1659920965107">
+    <state width="1857" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1659971722178" />
+    <state width="1857" height="278" key="GridCell.Tab.0.center" timestamp="1659971722178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1659920965107">
+    <state width="1857" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1659971722178" />
+    <state width="1857" height="278" key="GridCell.Tab.0.left" timestamp="1659971722178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659920965107" />
+    <state width="1857" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1659971722178" />
+    <state width="1857" height="278" key="GridCell.Tab.0.right" timestamp="1659971722178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1857" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1659971722178" />
   </component>
 </project>
